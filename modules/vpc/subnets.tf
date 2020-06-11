@@ -6,6 +6,7 @@ resource "aws_subnet" "public-subnet" {
 
   tags = {
     Name = "Public Subnet"
+     Environment = "Dev"
   }
 }
 
@@ -17,5 +18,6 @@ resource "aws_subnet" "private-subnet" {
 
   tags = {
     Name = "Private Subnet"
+    Environment = "Dev"
   }
 }
