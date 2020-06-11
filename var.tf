@@ -1,6 +1,5 @@
 variable "region" {
   description = "Region for the VPC"
-  default = "us-east-2"
 }
 
 variable "vpc_cidr" {
